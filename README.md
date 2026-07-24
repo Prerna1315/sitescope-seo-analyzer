@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SiteScope – Website SEO & Performance Analyzer
 
-## Getting Started
+SiteScope is a modern web application built with Next.js and TypeScript that analyzes public websites and provides useful SEO insights.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Website URL Analysis
+- HTTP Status Check
+- Response Time
+- SEO Score
+- H1 Tag Count
+- Missing ALT Detection
+- Word Count
+- Meta Description Extraction
+- Copy Report
+- Responsive UI
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Axios
+- Cheerio
+- Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Live Demo
 
-## Learn More
+https://sitescope-seo-analyzer-seven.vercel.app/
 
-To learn more about Next.js, take a look at the following resources:
+## 📂 GitHub Repository
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://github.com/Prerna1315/sitescope-seo-analyzer
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📸 Preview
 
-## Deploy on Vercel
+Analyze any public website and receive:
+- HTTP Status
+- Response Time
+- SEO Score
+- H1 Count
+- Missing ALT Tags
+- Word Count
+- Meta Description
+- Page Title
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👩‍💻 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Prerna Revalia**
