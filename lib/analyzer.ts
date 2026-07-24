@@ -31,7 +31,7 @@ export async function analyzeWebsite(url: string) {
 
   const responseTime = Date.now() - startTime;
 
-  const contentType = response.headers["content-type"] || "";
+  const contentType = String(response.headers["content-type"] || "");
 
   if (!contentType.includes("text/html")) {
     throw new Error("The provided URL is not an HTML webpage.");
